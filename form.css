@@ -51,16 +51,3 @@
         cursor: pointer;
     }
     </style>
-
-</head>
-
-<body>
-<div class="boxed">
-	<h1> Form</h1>
-	<form action="/sendData" method="POST">
-	<label for="txtTel">Number</label>
-	<input type="tel" id="txtTel" name="Number" maxlength="10" placeholder="Please enter a number" required>
-	<br>
-	<input type="submit" id="submit" value="Submit">
-</div>
-</body>
