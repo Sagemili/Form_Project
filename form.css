@@ -1,0 +1,66 @@
+    <style>
+    :root
+    {
+        --myvar: #348ed9;
+    }
+    body
+    {
+        font-family: "Lucida Bright", serif;
+        padding: 15px;
+        margin: 15px;
+    }
+    div
+    {
+        width: 380px;
+        padding: 20px;
+        margin: auto;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        background-color: transparent;
+        box-sizing: border-box;
+    }
+    h1
+    {
+        color: var(--myvar);
+    }
+    label
+    {
+        display: block;
+        margin-bottom: 15px;
+    }
+    input[type="tel"]
+    {
+        width: 300px;
+        height: 23px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        box-sizing: bordered-box;
+    }
+    input[type="submit"]
+    {
+        font-size: 16px;
+        font-weight: bold;
+        color: var(--myvar);
+        border: 3px solid;
+        border-radius: 10px;
+        position: relative;
+        left: 217px;
+        padding: 3px 10px;
+        margin: 15px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    </style>
+
+</head>
+
+<body>
+<div class="boxed">
+	<h1> Form</h1>
+	<form action="/sendData" method="POST">
+	<label for="txtTel">Number</label>
+	<input type="tel" id="txtTel" name="Number" maxlength="10" placeholder="Please enter a number" required>
+	<br>
+	<input type="submit" id="submit" value="Submit">
+</div>
+</body>
