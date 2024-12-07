@@ -1,1 +1,2 @@
 # Form_Project
+With the HTML code, I created the structure of the form, including the input field for the phone number and the submit button. The CSS was designed to closely resemble the appearance of the example image provided in the exercise, with emphasis on layout, colors, and spacing. Finally, the JavaScript code adds a validation layer, ensuring that users can only submit the form if the phone number entered matches the correct 10-digit format, preventing invalid entries.
